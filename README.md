@@ -24,10 +24,6 @@ Le projet "OhMyFood!" est une application de réservation de restaurants en lign
    ```bash
    git clone https://github.com/votre-utilisateur/ohmyfood.git
 
-Bien sûr, voici un exemple de fichier README.md pour le projet "OhMyFood!" d'OpenClassrooms. Vous pouvez personnaliser ce fichier en fonction des besoins spécifiques de votre projet :
-
-markdown
-Copy code
 # Projet OhMyFood!
 
 Le projet "OhMyFood!" est une application de réservation de restaurants en ligne. Il s'agit d'un projet pédagogique développé dans le cadre du parcours "Développeur Front-End" d'OpenClassrooms. L'objectif de ce projet est de créer une interface utilisateur interactive et conviviale pour permettre aux utilisateurs de rechercher, réserver et découvrir de délicieux restaurants.
