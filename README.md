@@ -21,7 +21,7 @@ Le projet "OhMyFood!" est une application de réservation de restaurants en lign
 
 1. Clonez ce dépôt sur votre machine locale en utilisant la commande suivante :
 
-   ```bash
+   ```bash[
    git clone https://github.com/votre-utilisateur/ohmyfood.git
 
 # Projet OhMyFood!
@@ -43,7 +43,6 @@ Le projet "OhMyFood!" est une application de réservation de restaurants en lign
 - HTML5
 - CSS3 (y compris SASS)
 - JavaScript
-- [Votre liste de dépendances ou de bibliothèques, le cas échéant]
 
 ## Installation
 
