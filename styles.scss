@@ -11,6 +11,46 @@ body{
   font-family: "roboto";
   background-color: #F6F6F6;
 }
+
+.loading-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #EAEAEA; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  animation: fade-out 5s 0s forwards;
+}
+
+.loading {
+  border: 4px solid #9356dc; 
+  border-top: 4px solid transparent;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+@keyframes fade-out {
+  0% { opacity: 1; }
+  100% { opacity: 0; visibility: hidden; }
+}
+
+@keyframes fond-apparait {
+  to {
+      opacity: 0;
+      visibility: hidden;
+  }
+}
 section{
   padding: 0rem 1rem;
 }
@@ -64,6 +104,7 @@ main{
   button:hover{
     background: #9356dc;
     background: linear-gradient(0deg, rgb(163, 99, 240) 0%, rgb(248, 138, 217) 100%);
+    box-shadow: rgba(149, 157, 165, 0.5) 0px 8px 24px;
   }
 }
 .function{

@@ -12,7 +12,6 @@ body{
 }
 a{
     text-decoration: none;
-    color: white;
   }
 header{
     display: flex;
@@ -179,6 +178,7 @@ h2{
       button:hover{
         background: #9356dc;
         background: linear-gradient(0deg, rgb(163, 99, 240) 0%, rgb(248, 138, 217) 100%);
+        box-shadow: rgba(149, 157, 165, 0.5) 0px 8px 24px;
       }    
 }
 footer{
@@ -196,7 +196,36 @@ footer{
       align-items: center;
       gap: 0.5rem;
     }
+    a{
+        color: white;
+    }
   }
+/* Define keyframes for the entrance animation */
+@keyframes entranceAnimation {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Apply the animation to each article */
+  .entres, .plats, .desserts {
+    animation: entranceAnimation 0.5s ease-in-out forwards;
+  }
+  
+  /* Delay the animation for each article */
+  .plats {
+    animation-delay: 0.2s;
+  }
+  
+  .desserts {
+    animation-delay: 0.4s;
+  }
+  
 @media (min-width: 767.98px) {
     .card{
         margin: -4rem 5rem 0rem 5rem;
@@ -228,4 +257,11 @@ footer{
           gap: 2rem;
         }
       }  
+    .element{
+      .selection:hover{
+      display: flex;
+      width: 100px;
+      opacity: 100%;
+      }
+    }
   }
