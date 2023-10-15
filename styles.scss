@@ -115,7 +115,7 @@ main{
   flex-direction: column;
   gap: 1rem;
   margin-bottom: 3rem;
-  article{
+  .block{
     border: none;
     color: black;
     display: flex;
@@ -170,19 +170,17 @@ main{
     display: flex;
     width: 100%;
     justify-content: flex-end;
-
-  .tag{
-    background: $Green;
-    color: $Green2;
-    font-weight: 500;
-    padding: 0.5rem 1rem;
-    margin:  1rem 2rem;
-    border-radius: 0.3rem;
-    position: absolute;
-  }
   }
 }
-
+.tag{
+  background: $Green;
+  color: $Green2;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  margin:  1rem 2rem;
+  border-radius: 0.3rem;
+  position: absolute;
+}
 .card_description{
   padding: 0.8rem;
   display: flex;
