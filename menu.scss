@@ -161,7 +161,9 @@ h2{
         transition: transform 0.4s ease-in-out, width 0.4s ease-in-out, opacity 0.4s ease-in-out;
     }
     input[type="checkbox"]{
-        display: none;
+      margin-left: -20em;
+      width: 300px;
+      opacity: 0;
     }
     input[type="checkbox"]:checked + .selection {
         width: 20%;
